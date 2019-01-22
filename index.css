@@ -1,0 +1,87 @@
+a {
+    color: black !important;
+}
+.brand-logo img {
+    height: 1.2em;
+}
+#eyes {
+    background-image: url('https://www.katyperry.com/files/2017/03/KP-Witness-Save-For-Web-crop.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-bottom: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+#cinderella {
+    background-image: url(https://www.katyperry.com/files/2017/10/871A2665-Rony-Alwin.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-bottom: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+#freakyeyes {
+    background-image: url(http://cdn.playbuzz.com/cdn/33ec169c-5d2b-4ef3-8687-7c37b001a019/51779851-c369-470c-80a2-89c740a3960d.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-bottom: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+h2,h4 {
+    text-align: center;
+}
+.card-image img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.card .card-image .card-title {
+    color:black;
+    visibility:hidden;
+}
+.card:hover .card-image .card-title {
+    visibility:visible;
+}
+.event_date, .location {
+    display:inline-block;
+    width:20%;
+}
+.venue {
+    display:inline-block;
+    width:55%
+}
+.buy {
+    display:inline-block;
+}
+.location, .buy {
+    font-weight:bold;
+}
+h5 {
+    font-size: 20px;
+}
+#join {
+    float: right;
+    background-color: #fb875e;
+    color: #fefefe;
+    font-size: 1rem;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.modal {
+    max-height: 100% !important;
+}
+#submit {
+    margin:0 auto;
+}
